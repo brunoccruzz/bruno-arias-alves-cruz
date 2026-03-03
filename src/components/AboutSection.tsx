@@ -1,7 +1,12 @@
 import ScrollReveal from "./ScrollReveal";
 
-const highlights = ["Backend", "APIs", "Banco de Dados", "Estruturas de Dados", "Lógica de Programação"];
-
+const highlights = [
+  "Desenvolvimento Backend",
+  "APIs REST",
+  "Modelagem e Persistência de Dados",
+  "Arquitetura de Software",
+  "Estruturas de Dados e Algoritmos",
+];
 const AboutSection = () => {
   return (
     <section id="sobre" className="py-24 md:py-32">
@@ -25,19 +30,22 @@ const AboutSection = () => {
             </ScrollReveal>
             <ScrollReveal delay={200}>
               <p className="text-muted-foreground leading-relaxed">
-                Meus interesses técnicos estão voltados para o <span className="text-foreground font-medium">desenvolvimento backend</span>, 
-                construção de <span className="text-foreground font-medium">APIs REST</span>, modelagem de 
-                <span className="text-foreground font-medium"> bancos de dados relacionais</span> e compreensão 
-                de arquiteturas de software escaláveis. Gosto de entender como os sistemas funcionam por baixo 
-                dos panos e transformar requisitos em código limpo e funcional.
+                Meus interesses técnicos envolvem {" "}<span className="text-foreground font-medium">desenvolvimento de sistemas</span>, 
+                construção de <span className=" text-foreground font-medium"> APIs</span>, modelagem de{" "} 
+                < span className=" text-foreground font-medium "> bancos de dados </span> e estudo de 
+                <span className="text-foreground font-medium "> arquiteturas de software</span>. 
+                Busco compreender tanto a lógica quanto a estrutura das aplicações, transformando requisitos 
+                em soluções organizadas, eficientes e escaláveis.
               </p>
             </ScrollReveal>
+
             <ScrollReveal delay={300}>
               <p className="text-muted-foreground leading-relaxed">
-                Meu objetivo atual é ingressar como <span className="text-foreground font-medium">estagiário na área de desenvolvimento</span>, 
-                onde possa aplicar meus conhecimentos, aprender com profissionais experientes e contribuir 
-                para projetos reais que gerem impacto.
+                Meu objetivo é ingressar como <span className="text-foreground font-medium">estagiário na área de tecnologia</span>, 
+                contribuindo ativamente em projetos reais, evoluindo tecnicamente e agregando valor por meio de 
+                responsabilidade, organização e aprendizado contínuo.
               </p>
+
             </ScrollReveal>
           </div>
 

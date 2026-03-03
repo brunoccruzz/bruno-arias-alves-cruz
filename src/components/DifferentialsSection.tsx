@@ -2,13 +2,32 @@ import ScrollReveal from "./ScrollReveal";
 import { Brain, Zap, FolderKanban, Users, MessageSquare } from "lucide-react";
 
 const items = [
-  { icon: Brain, title: "Mentalidade Analítica", desc: "Capacidade de decompor problemas complexos em partes gerenciáveis." },
-  { icon: Zap, title: "Aprendizado Rápido", desc: "Facilidade em aprender novas tecnologias e se adaptar a novos contextos." },
-  { icon: FolderKanban, title: "Organização", desc: "Metodologia clara para gestão de tarefas e código bem estruturado." },
-  { icon: Users, title: "Perfil Colaborativo", desc: "Trabalho em equipe com escuta ativa e compartilhamento de conhecimento." },
-  { icon: MessageSquare, title: "Boa Comunicação", desc: "Clareza ao explicar ideias técnicas para diferentes públicos." },
+  {
+    icon: Brain,
+    title: "Raciocínio Analítico",
+    desc: "Capacidade de estruturar problemas complexos de forma lógica, identificando padrões e propondo soluções eficientes.",
+  },
+  {
+    icon: Zap,
+    title: "Aprendizado Contínuo",
+    desc: "Facilidade em assimilar novas tecnologias e aplicar rapidamente o conhecimento em projetos práticos.",
+  },
+  {
+    icon: FolderKanban,
+    title: "Organização e Arquitetura",
+    desc: "Foco em código limpo, modularização e separação clara de responsabilidades.",
+  },
+  {
+    icon: Users,
+    title: "Colaboração",
+    desc: "Experiência em projetos em equipe, com comunicação clara e contribuição ativa nas decisões técnicas.",
+  },
+  {
+    icon: MessageSquare,
+    title: "Comunicação Técnica",
+    desc: "Clareza ao explicar conceitos técnicos para diferentes níveis de conhecimento.",
+  },
 ];
-
 const DifferentialsSection = () => {
   return (
     <section id="diferenciais" className="py-24 md:py-32 bg-card/50">

@@ -18,14 +18,14 @@ const ContactSection = () => {
         <ScrollReveal delay={200}>
           <div className="flex flex-wrap items-center justify-center gap-4">
             <a
-              href="mailto:seu-email@email.com"
+              href="mailto:brunoariasalvescruz@gmail.com"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium transition-all duration-300 hover:shadow-[0_0_20px_hsl(var(--primary)/0.4)] hover:scale-105"
             >
               <Mail className="w-4 h-4" />
               Vamos conversar
             </a>
             <a
-              href="https://linkedin.com/in/"
+              href="https://www.linkedin.com/in/brunoariasalvescruz/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border bg-card text-foreground font-medium card-hover"
@@ -34,7 +34,7 @@ const ContactSection = () => {
               LinkedIn
             </a>
             <a
-              href="https://github.com/"
+              href="https://github.com/brunoccruzz"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border bg-card text-foreground font-medium card-hover"

@@ -22,12 +22,12 @@ const HeroSection = () => {
         </h1>
 
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-4 animate-fade-up font-light" style={{ animationDelay: "0.2s" }}>
-          Estudante de Engenharia de Software | Desenvolvedor em Formação
+          Estudante de Engenharia de Software | em Formação
         </p>
 
-        <p className="text-base text-muted-foreground/80 max-w-xl mx-auto mb-10 animate-fade-up" style={{ animationDelay: "0.3s" }}>
-          Apaixonado por tecnologia, desenvolvimento backend e construção de soluções eficientes e escaláveis.
-        </p>
+          <p className="text-base text-muted-foreground/80 max-w-xl mx-auto mb-10 animate-fade-up" style={{ animationDelay: "0.3s" }}>
+            Estudante de Engenharia de Software apaixonado por desenvolvimento de sistemas, arquitetura bem estruturada e criação de soluções eficientes, seguras e escaláveis.
+          </p>
 
         <div className="flex flex-wrap items-center justify-center gap-4 animate-fade-up" style={{ animationDelay: "0.4s" }}>
           <a
@@ -38,7 +38,7 @@ const HeroSection = () => {
             <ArrowDown className="w-4 h-4" />
           </a>
           <a
-            href="https://linkedin.com/in/"
+            href="https://www.linkedin.com/in/brunoariasalvescruz/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border bg-card text-foreground font-medium card-hover"
@@ -47,7 +47,7 @@ const HeroSection = () => {
             LinkedIn
           </a>
           <a
-            href="https://github.com/"
+            href="https://github.com/brunoccruzz"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border bg-card text-foreground font-medium card-hover"

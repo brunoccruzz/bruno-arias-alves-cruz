@@ -1,24 +1,28 @@
 import ScrollReveal from "./ScrollReveal";
-import { Code2, Wrench, BookOpen } from "lucide-react";
+import { Code2, Wrench, BookOpen, Smartphone } from "lucide-react";
 
 const categories = [
   {
     title: "Linguagens",
     icon: Code2,
-    items: ["Python", "Java", "JavaScript", "SQL"],
+    items: ["Python", "Java", "Kotlin", "JavaScript", "SQL"],
   },
   {
-    title: "Ferramentas",
-    icon: Wrench,
-    items: ["Git", "GitHub", "Docker", "VS Code"],
+    title: "Tecnologias & Frameworks",
+    icon: Smartphone,
+    items: ["Android Studio", "Firebase", "SQLite", "MongoDB"],
   },
   {
-    title: "Conceitos",
+    title: "Engenharia de Software",
     icon: BookOpen,
-    items: ["POO", "Estruturas de Dados", "APIs REST", "BD Relacional", "Versionamento"],
+    items: [
+      "Programação Orientada a Objetos (POO)",
+      "Arquitetura Modular",
+      "Estruturas de Dados",
+      "Controle de Versão (Git)",
+    ],
   },
 ];
-
 const TechStackSection = () => {
   return (
     <section id="stack" className="py-24 md:py-32 bg-card/50">

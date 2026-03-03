@@ -10,17 +10,32 @@ interface Project {
 
 const projects: Project[] = [
   {
-    name: "OrganizaPy",
+    name: "OrganizaPy — Gerenciador de Tarefas com Autenticação",
     description:
-      "Sistema de organização de tarefas desenvolvido em Python com foco em lógica e persistência de dados.",
-    techs: ["Python", "SQLite", "CLI"],
-    github: "#",
+      "Sistema backend desenvolvido em Python com autenticação segura (SHA-256), gerenciamento completo de tarefas e persistência em SQLite. Arquitetura modular com separação de responsabilidades e interface de terminal aprimorada com Rich.",
+    techs: ["Python", "SQLite", "SQL", "GitHub", "Rich"],
+    github: "https://github.com/brunoccruzz/OrganizaPy",
   },
   {
-    name: "Em breve...",
+    name: "IdoSOS — Aplicativo de Monitoramento de Saúde",
     description:
-      "Novos projetos estão sendo desenvolvidos. Acompanhe meu GitHub para atualizações.",
-    techs: ["???"],
+      "Aplicativo Android voltado ao monitoramento da saúde de idosos por meio de questionários diários e geração de gráficos interativos. Desenvolvido com foco em UX, gerenciamento de dados e impacto social.",
+    techs: ["Kotlin", "Android Studio", "MongoDB", "Java", "Trabalho em equipe"],
+    github: "https://github.com/brunoccruzz/IdoSOS",
+  },
+  {
+    name: "Shadows Of Aethern — RPG em Java",
+    description:
+      "Jogo de RPG baseado em turnos desenvolvido em Java aplicando conceitos de Programação Orientada a Objetos (herança, encapsulamento e abstração). Sistema de combate, inventário e progressão de personagens com arquitetura modular.",
+    techs: ["Java", "POO", "Estrutura de Classes", "Jogo 2D", "GitHub"],
+    github: "https://github.com/brunoccruzz/Shadows-Of-Aethern",
+  },
+  {
+    name: "SuperID — Gerenciador de Autenticação com QR Code",
+    description:
+      "Aplicativo Android em Kotlin para gerenciamento seguro de credenciais com autenticação via QR Code. Integração com Firebase Authentication, backend serverless e criptografia de dados sensíveis.",
+    techs: ["Kotlin", "Android Studio", "Firebase", "Criptografia", "GitHub"],
+    github: "https://github.com/brunoccruzz/SuperID",
   },
 ];
 
